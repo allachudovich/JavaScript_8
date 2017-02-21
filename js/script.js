@@ -32,7 +32,6 @@ $(function() {
     var Oleg = new Student();
     Oleg.name = 'Oleg';
     Oleg.grant = '$100';
-    Oleg.watch =
-        console.log(Oleg);
+    console.log(Oleg);
 
 });

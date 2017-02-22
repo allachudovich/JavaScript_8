@@ -1,0 +1,49 @@
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    display: block;
+    width: 1500px;
+    margin: 50px auto;
+    border: 1px solid #000;
+}
+
+li {
+    display: inline;
+}
+
+ul>li>img {
+    width: 200px;
+}
+
+.logo_search {
+    display: block;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.pixabay_logo {
+    width: 500px;
+}
+
+#search {
+    display: block;
+    width: 300px;
+    margin: 10px auto;
+}
+
+#search-button {
+    display: block;
+    margin: 20px auto;
+}

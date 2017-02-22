@@ -1,9 +1,9 @@
 $(function() {
 
-    function Human(name, age) {
+    function Human(name, age, gender) {
         this.name = name || 'unknown';
         this.age = age || 0;
-        this.gender = 'unknown';
+        this.gender = gender || 'unknown';
         this.height = 'unknown';
         this.weight = 'unknown';
     }
